@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
   <link href="./style.css" rel="stylesheet"/>
+  <script src="./main.js" defer></script>
   <title>Youtube Mobile</title>
 </head>
 <body>
@@ -29,84 +30,87 @@
     <video controls src="./video/더 글로리 성대모사 [The Glory impressions].mp4"></video>
   </section>
 
-  <!-- Video Info -->
-  <section class="info">
-    <!-- Metadata -->
-    <div class="metadata">
-      <ul class="hashtags">
-        <li>#ChulCoding</li>
-        <li>#ChulCoders</li>
-        <li>#DAECHUL</li>
-      </ul>
-      <div class="titleAndButton">
-         <span class="title">
-          Youtube 클론 사이트 만들기 프론트엔드 개발자 입문자편
-         </span>
-         <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
-      </div>
-      <span class="views">1M view 1 month ago</span>
-
-    </div>
-      
-    <!-- Actions -->
-    <ul class="actions">
-      <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
-      <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
-      <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
-      <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
-      <li>
-        <button>
-          <i class="fab fa-font-awesome-flag"></i>
-          <span>Report</span>
-        </button>
-      </li>
-    </ul>
-    <!-- Channel Description -->
-    <div class="channel">
+  <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
       <div class="metadata">
-        <img src="./image/avatar.ico" alt=""/>
-        <div class="info">
-          <span class="name">대철코딩</span>
-          <span class="subscribers">1M subcribers</span>
+        <ul class="hashtags">
+          <li>#ChulCoding</li>
+          <li>#ChulCoders</li>
+          <li>#DAECHUL</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            Youtube 클론 사이트 만들기 프론트엔드 개발자 입문자편
+          </span>
+          <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
         </div>
+        <span class="views">1M view 1 month ago</span>
+
       </div>
-      <button class="subscribe">subscribe</button>
-    </div>
-  </section>
-  <section class="upNext">
-    <span class="title">Up next</span>
-    <ul>
-      <li class="item">
-        <img src="image/1.png" alt="">
-        <div class="info">
-          <span class="title">
-            유튜브를 만들어보자 1
-          </span>
-          <span class="name">대철코딩1</span><span class="views">82K views</span>
+        
+      <!-- Actions -->
+      <ul class="actions">
+        <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+        <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+        <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+        <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+        <li>
+          <button>
+            <i class="fab fa-font-awesome-flag"></i>
+            <span>Report</span>
+          </button>
+        </li>
+      </ul>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="./image/avatar.ico" alt=""/>
+          <div class="info">
+            <span class="name">대철코딩</span>
+            <span class="subscribers">1M subcribers</span>
+          </div>
         </div>
-        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-      </li>
-      <li class="item">
-        <img src="image/2.png" alt="">
-        <div class="info">
-          <span class="title">
-            유튜브를 만들어보자 2
-          </span>
-          <span class="name">대철코딩2/span><span class="views">2K views</span>
-        </div>
-        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-      </li>
-      <li class="item">
-        <img src="image/3.png" alt="">
-        <div class="info">
-          <span class="title">
-            유튜브를 만들어보자 3
-          </span>
-          <span class="name">대철코딩<3/span><span class="views">8K views</span>
-        </div>
-        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-      </li>
-    </ul>
-  </section>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="image/1.png" alt=""></div>
+          <div class="info">
+            <span class="title">
+              유튜브를 만들어보자 1
+            </span>
+            <span class="name">대철코딩1</span><span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/2.png" alt=""></div>
+          <div class="info">
+            <span class="title">
+              유튜브를 만들어보자 2
+            </span>
+            <span class="name">대철코딩2</span><span class="views">2K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/3.png" alt=""></div>
+          <div class="info">
+            <span class="title">
+              유튜브를 만들어보자 3
+            </span>
+            <span class="name">대철코딩<3/span><span class="views">8K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+  </div>
+  
 </body>
 </html>
